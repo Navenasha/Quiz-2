@@ -38,8 +38,6 @@ if (matchUser.password == reqPassword){
 }
 
 
-
-
 // to register an account
 function register (reqUsername, reqPassword, reqName, reqEmail) {
     dbUsers.push( {
@@ -57,6 +55,4 @@ console.log (login ("utem","password"))
 register("utem", "password", "fkekk", "fkekk@utem.edu.my")
 
 console.log (login("utem", "password", "fkekk", "fkekk@utem.edu.my"))
-
-
 
